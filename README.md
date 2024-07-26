@@ -1,36 +1,37 @@
 # Nadia's Garden
 A Django-based online pizza shop.
 
-# Project Setup
-## Prerequisites
+## Project Setup
+### Prerequisites
 - Python (version 3.6 or later)
 - pip (Python package installer)
 - A code editor or IDE
-Installation
-Clone the repository:
-Bash
-git clone https://github.com/your-username/nadias-garden.git
-Use code with caution.
+## Installation
+1. Clone the repository:
+   ```sh
+git clone https://github.com/bennyGitau/nadiasgarden-django-project.git
+cd nadiasgarden
+    ```
 
-Replace https://github.com/your-username/nadias-garden.git with the actual repository URL.
-Create a virtual environment (recommended):
-Bash
+
+2. Create a virtual environment:
+   ```sh
 python -m venv venv
 source venv/bin/activate  # On Unix-like systems
 venv\Scripts\activate  # On Windows
-Use code with caution.
+    ```
 
-Install dependencies:
-Bash
+3. Install dependencies:
+   ```sh
 pip install -r requirements.txt
-Use code with caution.
+    ```
 
-Database migration:
-Bash
+4. Database migration:
+   ```sh                
 python manage.py migrate
-Use code with caution.
+    ```
 
-Create a superuser:
+5Create a superuser:
 Bash
 python manage.py createsuperuser
 Use code with caution.
