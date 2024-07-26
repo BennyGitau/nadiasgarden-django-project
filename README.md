@@ -27,8 +27,7 @@ venv\Scripts\activate  # On Windows
    ```sh
 pip install -r requirements.txt
     
-
-## Running the Development Server
+4. Running the Development Server
    ```sh
 python manage.py runserver
    
