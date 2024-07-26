@@ -1,5 +1,5 @@
 # Nadia's Garden
-A Django-based online pizza shop.
+Nadia's Garden is an online shop where users can order a variety of pizzas. The project is built using Django, a high-level Python web framework that encourages rapid development and clean, pragmatic design.
 
 ## Project Setup
 ### Prerequisites
