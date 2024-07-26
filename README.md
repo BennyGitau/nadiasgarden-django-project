@@ -8,19 +8,19 @@ A Django-based online pizza shop.
 - A code editor or IDE
 ## Installation
 1. Clone the repository:
-   ```sh
-git clone https://github.com/bennyGitau/nadiasgarden-django-project.git
+      ```sh
+   git clone https://github.com/bennyGitau/nadiasgarden-django-project.git
 
-cd nadiasgarden
+   cd nadiasgarden
     
 
 
 2. Create a virtual environment:
-   ```sh
-python -m venv venv
-source venv/bin/activate  # On Unix-like systems
+      ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Unix-like systems
 
-venv\Scripts\activate  # On Windows
+   venv\Scripts\activate  # On Windows
     
 
 3. Install dependencies:
