@@ -1,0 +1,52 @@
+{% extends 'pizza/base.html' %}
+{% block content %}
+    {% load widget_tweaks %}
+    <div class="container">
+    <h1>Order a Pizza</h1>
+    <h2>{{ note }}</h2>
+
+    {% if created_pizza_pk %}
+        <a href="{% url 'edit_order' created_pizza_pk %}">Edit your order</a>
+    {% endif %}
+    <form  action="{% url 'order' %}" method="post"> {% csrf_token %}
+        <!--replace the form inputs with the django pizzaform defined in forms.py
+        to add images add this attr to form  enctype="multipart/form-data" 
+        formsets to allow people order multiplepizzas-->
+        <!--styling using bootstrap-->
+        {% for field in Pizzaform %}
+        <div class="form-group">
+        {{ field.errors }}
+        {{ field.label_tag }}
+        {% render_field field class="form-control" %}
+        </div>
+        {% endfor %}
+
+            <!--add styling Pizzaform.as_p or as_table or as_ul
+            can also style indvidual fields-->
+      
+        <!--
+            <label for="topping1">Topping 1:</label>
+            <input id="topping1" type="text" name="topping1">
+            <label for="topping2">Topping 2:</label>
+            <input id="topping2" type="text" name="topping2">
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        -->
+        <input type="submit" value="Order">
+        
+    </form>
+    </br>
+    Want to order more?
+    <form action="{% url 'pizzas' %}" method="get">
+    {{ multiple_form }}
+        <input type="submit" value="Get Pizzas">
+    </form>
+    </div>
+{% endblock %}
+
+
+
