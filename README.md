@@ -10,26 +10,20 @@ A Django-based online pizza shop.
 1. Clone the repository:
       ```sh
    git clone https://github.com/bennyGitau/nadiasgarden-django-project.git
-
    cd nadiasgarden
-    
-
-
 2. Create a virtual environment:
       ```sh
    python -m venv venv
    source venv/bin/activate  # On Unix-like systems
-
-   venv\Scripts\activate  # On Windows
-    
+   venv\Scripts\activate  # On Windows  
 
 3. Install dependencies:
-   ```sh
-pip install -r requirements.txt
+      ```sh
+      pip install -r requirements.txt
     
 4. Running the Development Server
-   ```sh
-python manage.py runserver
+      ```sh
+      python manage.py runserver
    
 
 ## Contributing
