@@ -6,6 +6,12 @@ Nadia's Garden is an online shop where users can order a variety of pizzas. The 
 - Python (version 3.6 or later)
 - pip (Python package installer)
 - A code editor or IDE
+
+## Features:
+1. Order a single pizza
+2. Order multiple pizzas
+3. Edit existing orders
+
 ## Installation
 1. Clone the repository:
       ```sh
