@@ -1,11 +1,11 @@
-Nadia's Garden
+# Nadia's Garden
 A Django-based online pizza shop.
 
-Project Setup
-Prerequisites
-Python (version 3.6 or later)
-pip (Python package installer)
-A code editor or IDE
+# Project Setup
+## Prerequisites
+- Python (version 3.6 or later)
+- pip (Python package installer)
+- A code editor or IDE
 Installation
 Clone the repository:
 Bash
