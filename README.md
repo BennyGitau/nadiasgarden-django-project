@@ -20,8 +20,10 @@ Nadia's Garden is an online shop where users can order a variety of pizzas. The 
 3. Install dependencies:
       ```sh
       pip install -r requirements.txt
-    
-4. Running the Development Server
+4. Set up the database:
+      ```sh
+      python manage.py migrate
+5. Running the Development Server
       ```sh
       python manage.py runserver
    
