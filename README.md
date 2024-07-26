@@ -10,6 +10,7 @@ A Django-based online pizza shop.
 1. Clone the repository:
    ```sh
 git clone https://github.com/bennyGitau/nadiasgarden-django-project.git
+
 cd nadiasgarden
     ```
 
@@ -18,6 +19,7 @@ cd nadiasgarden
    ```sh
 python -m venv venv
 source venv/bin/activate  # On Unix-like systems
+
 venv\Scripts\activate  # On Windows
     ```
 
